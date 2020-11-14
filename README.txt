@@ -3,5 +3,5 @@
 
 Adds gloves/gauntlets to 3d_armor
 
-Depends: 3d_armor
+Depends: 3d_armor, farming
 
