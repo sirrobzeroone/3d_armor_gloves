@@ -4,8 +4,6 @@ local S = minetest.get_translator(minetest.get_current_modname())
 
 if minetest.global_exists("armor") and armor.elements then
 	table.insert(armor.elements, "hands")
-	local mult = armor.config.level_multiplier or 1
-	armor.config.level_multiplier = mult * 0.9
 end
 
 -- Regisiter Gloves/Gauntlets
