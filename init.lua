@@ -16,10 +16,10 @@ if armor.materials.wood then
 		armor_groups = {fleshy=5},
 		damage_groups = {cracky=3, snappy=2, choppy=3, crumbly=2, level=1},
 	})
-	
+
 	minetest.register_craft({
 		type = "fuel",
-		recipe = "shields:shield_wood",
+		recipe = "3d_armor_gloves:gloves_wood",
 		burntime = 4,
 	})
 end
@@ -32,7 +32,7 @@ if armor.materials.cactus then
 		armor_groups = {fleshy=5},
 		damage_groups = {cracky=3, snappy=3, choppy=2, crumbly=2, level=1},
 	})
-	
+
 	minetest.register_craft({
 		type = "fuel",
 		recipe = "3d_armor_gloves:gloves_cactus",
