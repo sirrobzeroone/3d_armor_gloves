@@ -11,4 +11,3 @@ Diamond Gauntlets=
 Gold Gauntlets=
 Mithril Gauntlets=
 Crystal Gauntlets=
-
